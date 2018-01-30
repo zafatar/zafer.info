@@ -1,6 +1,6 @@
 .robotzaf {
 	background-image:url(../images/robot_orig.jpg);
-	background-position:right center;
+	background-position:right top;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -9,14 +9,28 @@
 	background-repeat: no-repeat;
 }
 
+@media (min-width:768px) {
+  .robotzaf { 
+    background-position:right center;
+  }
+}
+
 .fa {
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 1.5rem;
     /*width: 30px;*/
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
+}
+
+@media (min-width:768px) {
+  .fa {
+      padding: 20px;
+      font-size: 3rem;
+      margin-bottom: 5px;
+  }
 }
 
 /* Add a hover effect if you want */
@@ -42,5 +56,10 @@
 
 .fa-instagram {
   background: #125688;
+  color: white;
+}
+
+.fa-lastfm {
+  background: #b90000;
   color: white;
 }

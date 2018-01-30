@@ -158,8 +158,8 @@ img::-moz-selection {
 }
 
 header.masthead {
-	padding-top:10rem;
-	padding-bottom:calc(10rem - 56px);
+	padding-top:0rem;
+	/*padding-bottom:calc(10rem - 56px);*/
 }
 
 header.masthead hr {
@@ -168,7 +168,7 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-	font-size:2rem
+	font-size:3rem
 }
 
 header.masthead p {
@@ -189,13 +189,13 @@ header.masthead p {
 		padding-bottom:0;
 	}
 	header.masthead h1 {
-		font-size:3rem
+		font-size:4rem
 	}
 }
 
 @media (min-width:1200px) {
 	header.masthead h1 {
-		font-size:4rem 
+		font-size:5rem 
 	}
 }
 
